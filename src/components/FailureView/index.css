@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    justify-content: flex-start;
+  }
+}
+
+.image {
+  width: 469px;
+  height: 230px;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    width: 238px;
+    height: 117.16px;
+  }
+}
+
+.para {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .para {
+    font-size: 19px;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.button {
+  color: #ffffff;
+  background-color: #0284c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
